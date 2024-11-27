@@ -1,9 +1,9 @@
 import networkx as nx
 import matplotlib.pyplot as plt
 # кол-во вершин
-n = 10
+n = 60
 # вероятность появления случайного ребра
-p = 0.3
+p = 0.45
 
 # генерация графа
 G = nx.erdos_renyi_graph(n, p)
