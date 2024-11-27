@@ -11,3 +11,5 @@ for n in centrality:
 
 nx.draw(G, with_labels=True)
 plt.show()
+plt.plot(list(centrality.keys()), list (centrality.values()))
+plt.show()
